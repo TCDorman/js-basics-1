@@ -36,8 +36,9 @@ var gitHubDefinition = `Github is a website (cloud service) that allows you to t
 */
 
 //CODE HERE
-Object.init(`Description - init initiates the repository in Github`, `Code- git init`)
-
+let init = new Object();
+init.description = `init initiates the repository in Github`
+init.code = `git init`
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -46,8 +47,9 @@ Object.init(`Description - init initiates the repository in Github`, `Code- git 
 */
 
 //CODE HERE
-Object.clone('Description - copy a repo from Github and put it on my machine', `code - git clone`)
-
+let clone = new Object();
+clone.description = `copy a repo from Github and put it on my machine`
+clone.code = `git clone`
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -56,8 +58,10 @@ Object.clone('Description - copy a repo from Github and put it on my machine', `
 */
 
 //CODE HERE
-Object.status(`Description - this will let you know if your commits meet the conditions for the repository you're contributing to.`, `code - git status`)
-
+let status = {
+    description: `this will let you know if your commits meet the conditions for the repository you're contributing to.`,
+    code: `git status`
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -66,8 +70,9 @@ Object.status(`Description - this will let you know if your commits meet the con
 */
 
 //CODE HERE
-Object.add(`Description - this will select your file and move it to the staging area marking it for inclusion in the next commit.`, `code - git add`)
-
+let add = new Object();
+add.description = `this will select your file and move it to the staging area marking it for inclusion in the next commit.`
+add.code = `git add`
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -76,8 +81,9 @@ Object.add(`Description - this will select your file and move it to the staging 
 */
 
 //CODE HERE
-Object.commit(`Description - this will commit a record change to one or more files`, `code - git commit -m "..." `)
-
+let commit = new Object();
+commit.description = `this will commit a record change to one or more files`
+commit.code = `git commit -m "..." `
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -86,5 +92,7 @@ Object.commit(`Description - this will commit a record change to one or more fil
 */
 
 //CODE HERE
-Object.push(`Description - this will push the updated git file to the website (cloud)`, `code - git push "..." main)
+let push = new Object();
+push.description = `this will push the updated git file to the website (cloud)`
+push.code = `git push "..." main`
 
