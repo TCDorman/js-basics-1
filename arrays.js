@@ -4,7 +4,7 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-var colorCopy = faveColors.slice(0,3)
+var colorCopy = faveColors.slice()
 // {
 //   console.log(colorCopy)
 // }
@@ -47,12 +47,25 @@ let middleNums = numbers.slice(1,4)
 */
 
 // CODE HERe
-function bigOrSmall(arr) 
-    
+let example = [79, 103 ,10]
+
+function bigOrSmall(arr){
+let answers = [];
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] > 100){
+      answers.push(`big`);
+    } else {
+      answers.bush(`small`)
+    }
+  }
+  return answers
+}
+
+bigOrSmall(example)
 answers = [1, 3, 5, 7]
   
 for(let i = 0; i < 4; i++)
     if(i <= 100) 
       arr.push(`small`)
         console.log(answers)
-      
+
