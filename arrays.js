@@ -49,7 +49,7 @@ let middleNums = numbers.slice(1,4)
 // CODE HERe
 function bigOrSmall(arr) 
     
-answers = [1, 3, 5, 7, 9]
+answers = [1, 3, 5, 7]
   
 for(let i = 0; i < 4; i++)
     if(i <= 100) 
